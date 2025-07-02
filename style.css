@@ -1,0 +1,126 @@
+.navbar-color{
+    background-color:rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+   
+}
+.logo-empresa{
+    width: 200px;
+}
+.titulo-inicio{
+    
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+    text-align: center;
+}
+.subtitulo-inicio{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.peugeot{
+    width: 50%;
+}
+.nissan-versa{
+    width: 40%;
+}
+
+.contenedor-img-autos{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+
+}
+
+.contenedor-padre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    
+    
+}
+
+.logos-redes{
+    width: 5%;
+}
+
+.card-propio{
+    width: 40rem;
+    margin: 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+.card-propio:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.boton-card{
+    background-color: rgb(127, 127, 128);
+    border-color: rgb(127, 127, 128);
+    font-family: "Poppins", sans-serif;
+}
+
+.imagen-propia{
+    width: 100%;
+}
+
+.titulo-servicios{
+     font-family: "Bebas Neue", sans-serif;
+     font-size: 3rem;
+    
+    
+}
+
+.texto-servicios{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+
+
+    
+}
+
+.card-servicios{
+    margin: 1rem;
+    
+}
+
+.container-reseñas{
+    font-family: "Poppins", sans-serif;
+}
+
+.boton-reseñas{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.boton-enviar{
+    border-radius: 10px;
+    background-color: rgb(219, 219, 219);
+}
+
+.seccion-otroscomen{
+    margin: 30px;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.area-texto{
+    width: 100%;
+}
+
+
