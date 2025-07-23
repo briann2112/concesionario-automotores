@@ -1,126 +1,126 @@
-.navbar-color{
-    background-color:rgb(255, 255, 255);
-    font-family: "Poppins", sans-serif;
-   
-}
-.logo-empresa{
-    width: 200px;
-}
-.titulo-inicio{
-    
-    color: black;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 5rem;
-    text-align: center;
-}
-.subtitulo-inicio{
-    color: black;
-    font-family: "Poppins", sans-serif;
-    font-size: 25px;
-    text-align: center;
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.peugeot{
-    width: 50%;
-}
-.nissan-versa{
-    width: 40%;
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
 }
 
-.contenedor-img-autos{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    padding: 10px;
-
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
 }
 
-.contenedor-padre{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 10px;
+.navbar-color {
+  background-color: 255, 255, 255;
+  font-family: "Poppins", sans-serif;
 }
 
-.footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-family: "Poppins", sans-serif;
-    padding: 10px;
-    
-    
+.logo-empresa {
+  width: 200px;
 }
 
-.logos-redes{
-    width: 5%;
+.titulo-inicio {
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5rem;
+  text-align: center;
 }
 
-.card-propio{
-    width: 40rem;
-    margin: 40px;
-    font-family: "Poppins", sans-serif;
+.subtitulo-inicio {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  text-align: center;
 }
 
-.card-propio:hover{
-    background-color: rgb(226, 226, 226);
+.peugeot {
+  width: 50%;
 }
 
-.boton-card{
-    background-color: rgb(127, 127, 128);
-    border-color: rgb(127, 127, 128);
-    font-family: "Poppins", sans-serif;
+.nissan-versa {
+  width: 40%;
 }
 
-.imagen-propia{
-    width: 100%;
+.titulo-servicios {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
 }
 
-.titulo-servicios{
-     font-family: "Bebas Neue", sans-serif;
-     font-size: 3rem;
-    
-    
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
 }
 
-.texto-servicios{
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-
-
-    
+.logos-redes {
+  width: 5%;
 }
 
-.card-servicios{
-    margin: 1rem;
-    
+.contenedor-img-autos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
 }
 
-.container-reseñas{
-    font-family: "Poppins", sans-serif;
+.contenedor-padre {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
 }
 
-.boton-reseñas{
-    display: flex;
-    justify-content: center;
-    
+.card-propio {
+  width: 40rem;
+  margin: 40px;
+  font-family: "Poppins", sans-serif;
 }
 
-.boton-enviar{
-    border-radius: 10px;
-    background-color: rgb(219, 219, 219);
+.card-propio:hover {
+  background-color: rgb(226, 226, 226);
 }
 
-.seccion-otroscomen{
-    margin: 30px;
-    font-family: "Poppins", sans-serif;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.boton-card {
+  background-color: rgb(127, 127, 127);
+  border-color: rgb(227, 227, 227);
 }
 
-.area-texto{
-    width: 100%;
+.imagen-propia {
+  width: 100%;
 }
 
+.card-servicios {
+  margin: 1rem;
+}
 
+.container-reseñas {
+  font-family: "Poppins", sans-serif;
+}
+
+.boton-reseñas {
+  display: flex;
+  justify-content: center;
+}
+
+.boton-enviar {
+  border-radius: 10px;
+  background-color: rgb(219, 219, 219);
+}
+
+.seccion-otroscomen {
+  margin: 30px;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.area-texto {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

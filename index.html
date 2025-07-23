@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <!-- Animate -->
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+        <!-- AOS -->
+         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- link bootstrap -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -44,8 +51,8 @@
         <main>
             <!-- titulo del inicio -->
             <div>
-                <h1 class="titulo-inicio  ">Automotores</h1>
-                <h2 class="subtitulo-inicio">concesionario</h2>
+                <h1 class="titulo-inicio animate__animated animate__pulse  ">Automotores</h1>
+                <h2 class="subtitulo-inicio animate__animated animate__pulse">concesionario</h2>
             </div>
             <!-- carrusel -->
           <section class="container">
@@ -77,7 +84,7 @@
                 </div>
                 <!-- imagenes de despues del carrusel -->
             </section>  
-            <div class="contenedor-img-autos">
+            <div data-aos="zoom-in class="contenedor-img-autos">
                 <img src="Recursos/imagen_1862.png" alt="208" class="peugeot">
                 <img src="Recursos/Nissan-Versa-2024.png.webp" alt="nissan" class="nissan-versa">
             </div>
@@ -109,5 +116,9 @@
             </div>    
            
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+            AOS.init();
+            </script>
     </body>
 </html>

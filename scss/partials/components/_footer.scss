@@ -1,0 +1,14 @@
+@use "../utilities/variables";
+@import "../utilities/mixins";
+.footer{
+    @include flex(row);
+    align-items: center;
+    font-family: "Poppins",sans-serif;
+    padding: variables.$padding;
+}
+
+.logos-redes{
+    width: 5%;
+
+}
+

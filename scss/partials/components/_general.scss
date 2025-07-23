@@ -1,0 +1,29 @@
+@use "../utilities/variables";
+
+
+.titulo-inicio{
+    color: variables.$color;
+    font-family: "Bebas Neue",sans-serif;
+    font-size: 5rem;
+    text-align: variables.$text-align;
+}
+
+.subtitulo-inicio{
+    color: variables.$color;
+    font-family: "Poppins",sans-serif;
+    font-size: 25px;
+    text-align: variables.$text-align;
+}
+
+.peugeot{
+    width: 50%;
+}
+
+.nissan-versa{
+    width: 40%;
+}
+
+.titulo-servicios{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+}

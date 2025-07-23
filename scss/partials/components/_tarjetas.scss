@@ -1,0 +1,65 @@
+@use "../utilities/variables";
+@import "../utilities/mixins";
+
+.contenedor-img-autos{
+    @include flex(row);
+    align-items: center;
+    padding: variables.$padding;
+}
+
+.contenedor-padre{
+    @include flex(row);
+    flex-wrap:wrap ;
+    padding: variables.$padding;
+}
+
+.card-propio{
+    width: 40rem;
+    margin: 40px;
+    font-family: "Poppins", sans-serif;   
+}
+
+.card-propio:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.boton-card{
+    background-color: rgb(127, 127, 127);
+    border-color: rgb(227, 227, 227);
+}
+
+.imagen-propia{
+    width: 100%;
+}
+
+.card-servicios{
+    margin: 1rem;
+}
+
+.container-reseñas{
+    font-family: "Poppins", sans-serif;
+}
+
+.boton-reseñas{
+    display: flex;
+    justify-content:variables.$justify-content;
+}
+
+.boton-enviar{
+    border-radius: 10px;
+    background-color: rgb(219, 219, 219);
+}
+
+.seccion-otroscomen{
+    margin: 30px;
+    font-family: "Poppins",sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content:variables.$justify-content;
+   
+}
+
+
+.area-texto{
+    width: 100%;
+}
